@@ -1,5 +1,5 @@
 {
-  "new": {
+  "Card": {
     "protocol_name":"new_bolt_card_response",
     "protocol_version":1,
     "lnurlw_base":"lnurlw://your.domain.com/ln", 
