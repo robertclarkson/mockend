@@ -1,8 +1,8 @@
 {
   "Card": {
-    "protocol_name":"new_bolt_card_response",
-    "protocol_version":1,
-    "lnurlw_base":"lnurlw://your.domain.com/ln", 
+    "protocol_name": { "string": "new_bolt_card_response" },
+    "protocol_version":{"int": 1 },
+    "lnurlw_base":{ "string": "lnurlw://your.domain.com/ln"}, 
     "k0":"string": [
       "00000000000000000000000000000000",
       "11111111111111111111111111111111",
