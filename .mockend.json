@@ -1,7 +1,7 @@
 {
   "Card": {
     "protocol_name": { "string": ["new_bolt_card_response"] },
-    "protocol_version":{"int": [1] },
+    "protocol_version":{ "int": [1] },
     "card_name": { "string": ["Spending_Card"] },
     "lnurlw_base":{ "string": ["lnurlw://your.domain.com/ln"]}, 
     "k0":{"string": ["11111111111111111111111111111111"]},
@@ -11,8 +11,8 @@
     "k4":{"string": ["55555555555555555555555555555555"]}
   },
   "Wipe": {
-    "v":{"int": [1] },
     "action": { "string": ["wipe"] },
+    "version":{ "int": [1] },
     "k0":{"string": ["11111111111111111111111111111111"]},
     "k1":{"string": ["22222222222222222222222222222222"]},
     "k2":{"string": ["33333333333333333333333333333333"]},
