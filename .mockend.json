@@ -10,7 +10,7 @@
     "k3":{"string": ["44444444444444444444444444444444"]},
     "k4":{"string": ["55555555555555555555555555555555"]}
   },
-  "PrivateCard": {
+  "Private": {
     "protocol_name": { "string": ["new_bolt_card_response"] },
     "protocol_version":{ "int": [2] },
     "card_name": { "string": ["Private_Card"] },
