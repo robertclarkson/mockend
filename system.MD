@@ -2,12 +2,12 @@
 ### Sequencing
 ```mermaid
 sequenceDiagram
-    participant p1 as customer bolt card
-    participant p2 as merchant point of sale
-    participant p3 as merchant server
-    participant p4 as customer bolt card server
-    participant p5 as customer lightining node
-    participant p6 as merchant lightning node
+    participant p1 as Bolt Card
+    participant p2 as Merchant PoS
+    participant p3 as Merchant server
+    participant p4 as Customer Bolt Card Server
+    participant p5 as Customer Lightining node
+    participant p6 as Merchant Lightning node
     p1->>p2: NFC read
     p2->>p3: API call
     p3->>p4: LNURLw request
