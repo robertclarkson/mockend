@@ -10,9 +10,9 @@ sequenceDiagram
     participant p6 as Merchant Lightning node
     p1->>p2: NFC read
     p2->>p3: API call
-    p3->>p4: LNURLw request
+    p3->>p4: LNURLw request (lnurlw://boltcard.service.url/ln?p=XXXX&c=XXXX)
     p4->>p3: LNURLw response + token
-    p3->>p4: LNURLw callback + invoice + token
+    p3->>p4: LNURLw callback + LN invoice + token
     p4->>p3: LNURLw response (OK)
     p4->>p5: API call
     p5-->>p6: lightning network payment
