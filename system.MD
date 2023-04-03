@@ -8,8 +8,8 @@ sequenceDiagram
     participant p4 as Customer Bolt Card Server
     participant p5 as Customer Lightining node
     participant p6 as Merchant Lightning node
-    p1->>p6: Request Invoice
-    p6->>p1: LN Invoice
+    p2->>p6: Request Invoice
+    p6->>p2: LN Invoice
     p1->>p2: NFC read
     p2->>p3: API call
     p3->>p4: LNURLw request
