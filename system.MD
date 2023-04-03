@@ -11,7 +11,7 @@ sequenceDiagram
     p2->>p3: LNURLw request (lnurlw://boltcard.service.url/ln?p=XXXX&c=XXXX)
     p3->>p2: LNURLw response + token
     p2->>p3: LNURLw callback + LN invoice + token
-    p3->>p4: LNURLw response (OK)
+    p3->>p2: LNURLw response (OK)
     p3->>p4: API call
     p4-->>p5: lightning network payment
     p5->>p2: payment notification
