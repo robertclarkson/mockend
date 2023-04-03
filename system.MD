@@ -8,7 +8,7 @@ sequenceDiagram
     participant p4 as Customer Lightining node
     participant p5 as Merchant Lightning node
     p1->>p2: NFC read
-    p2->>p3: LNURLw request (lnurlw://boltcard.service.url/ln?p=XXXX&c=XXXX)
+    p2->>p3: LNURLw request
     p3->>p2: LNURLw response + token
     p2->>p3: LNURLw callback + LN invoice + token
     p3->>p2: LNURLw response (OK)
