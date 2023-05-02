@@ -1,14 +1,14 @@
 # mockend
 
-https://mockend.com/robertclarkson/mockend/cards/1
+https://boltcard.free.beeceptor.com/card
 
-![image](https://user-images.githubusercontent.com/3826238/202067311-d655a8b6-d9a7-4f59-9ebe-cdb05879e0c1.png)
+![image](https://user-images.githubusercontent.com/3826238/235588007-ef4fcd4a-daec-40c9-9437-834739a5c695.png)
 
-https://mockend.com/robertclarkson/mockend/privates/1
+https://boltcard.free.beeceptor.com/privatecard
 
-![image](https://user-images.githubusercontent.com/3826238/213586903-a802a923-6595-4b04-834d-2957bef721c6.png)
+![image](https://user-images.githubusercontent.com/3826238/235588278-d6d37049-eb6b-446e-9b8e-62a7faa9c06b.png)
 
-https://mockend.com/robertclarkson/mockend/wipes/1
+https://boltcard.free.beeceptor.com/wipecard
 
-![image](https://user-images.githubusercontent.com/3826238/202386309-c2b1ec8f-eaee-413b-8617-9157c0a76408.png)
+![image](https://user-images.githubusercontent.com/3826238/235588352-a9fdfdb1-1bb4-43c7-a360-75b7912962e2.png)
 
