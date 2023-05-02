@@ -2,7 +2,7 @@ models:
   Card:
     fake:
       _count: 1
-      protocol_name: { string: [1920, 1080] }
+      protocol_name: { string: ["new_bolt_card_response"] }
       protocol_version: { int: [1] }
       card_name: { string: ["Spending_Card"] }
       lnurlw_base: { string: ["lnurlw://your.domain.com/ln"] }
