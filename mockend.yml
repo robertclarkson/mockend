@@ -1,26 +1,4 @@
 models:
   Card:
     data: [{ protocol_name: 'new_bolt_card_response', protocol_version: 1, card_name: 'Spending_Card', lnurlw_base: 'lnurlw://your.domain.com/ln', k0: '11111111111111111111111111111111', k1: '22222222222222222222222222222222', k2: '33333333333333333333333333333333', k3: '44444444444444444444444444444444', k4: '55555555555555555555555555555555'}]
-  Private:
-    fake:
-      count: 1
-      protocol_name: { stringOf: ['new_bolt_card_response'] }
-      protocol_version: { int: [1] }
-      card_name: { stringOf: ['Spending_Card'] }
-      lnurlw_base: { stringOf: ['lnurlw://your.domain.com/ln'] }
-      uid_privacy: { stringOf: ['Y']}
-      k0: { stringOf: ['11111111111111111111111111111111'] }
-      k1: { stringOf: ['22222222222222222222222222222222'] }
-      k2: { stringOf: ['33333333333333333333333333333333'] }
-      k3: { stringOf: ['44444444444444444444444444444444'] }
-      k4: { stringOf: ['55555555555555555555555555555555'] }
-  Wipe: {
-    fake:
-      count: 1
-      action: { stringOf: ['wipe'] }
-      version: { int: [1] }
-      k0: { stringOf: ['11111111111111111111111111111111'] }
-      k1: { stringOf: ['22222222222222222222222222222222'] }
-      k2: { stringOf: ['33333333333333333333333333333333'] }
-      k3: { stringOf: ['44444444444444444444444444444444'] }
-      k4: { stringOf: ['55555555555555555555555555555555'] }
+  
