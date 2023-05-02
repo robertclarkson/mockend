@@ -10,5 +10,4 @@ https://boltcard.free.beeceptor.com/privatecard
 
 https://boltcard.free.beeceptor.com/wipecard
 
-![image](https://user-images.githubusercontent.com/3826238/235588352-a9fdfdb1-1bb4-43c7-a360-75b7912962e2.png)
-
+![image](https://user-images.githubusercontent.com/3826238/235588918-24b09d18-830a-4741-883b-5dd94a9772d3.png)
