@@ -1,16 +1,16 @@
 models:
   Card:
-    fake:
-      _count: 1
-      protocol_name: { string: ["new_bolt_card_response"] }
-      protocol_version: { int: [1] }
-      card_name: { string: ["Spending_Card"] }
-      lnurlw_base: { string: ["lnurlw://your.domain.com/ln"] }
-      k0: { string: ["11111111111111111111111111111111"] }
-      k1: { string: ["22222222222222222222222222222222"] }
-      k2: { string: ["33333333333333333333333333333333"] }
-      k3: { string: ["44444444444444444444444444444444"] }
-      k4: { string: ["55555555555555555555555555555555"] }
+    data: {
+      protocol_name: 'new_bolt_card_response',
+      protocol_version: 1,
+      card_name: 'Spending_Card',
+      lnurlw_base: 'lnurlw://your.domain.com/ln',
+      k0: "11111111111111111111111111111111",
+      k1: "22222222222222222222222222222222",
+      k2: "33333333333333333333333333333333",
+      k3: "44444444444444444444444444444444",
+      k4: "55555555555555555555555555555555"
+    }
   Private:
     fake:
       _count: 1
