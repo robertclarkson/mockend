@@ -1,0 +1,30 @@
+models:
+  Card:
+    protocol_name: { string: [1920, 1080] }
+    protocol_version: { int: [1] }
+    card_name: { string: ["Spending_Card"] }
+    lnurlw_base: { string: ["lnurlw://your.domain.com/ln"] }
+    k0: { string: ["11111111111111111111111111111111"] }
+    k1: { string: ["22222222222222222222222222222222"] }
+    k2: { string: ["33333333333333333333333333333333"] }
+    k3: { string: ["44444444444444444444444444444444"] }
+    k4: { string: ["55555555555555555555555555555555"] }
+  Private:
+    protocol_name: { string: [1920, 1080] }
+    protocol_version: { int: [1] }
+    card_name: { string: ["Spending_Card"] }
+    lnurlw_base: { string: ["lnurlw://your.domain.com/ln"] }
+    uid_privacy: { string: ["Y"]}
+    k0: { string: ["11111111111111111111111111111111"] }
+    k1: { string: ["22222222222222222222222222222222"] }
+    k2: { string: ["33333333333333333333333333333333"] }
+    k3: { string: ["44444444444444444444444444444444"] }
+    k4: { string: ["55555555555555555555555555555555"] }
+  Wipe: {
+    action: { string: ["wipe"] }
+    version: { int: [1] }
+    k0: { string: ["11111111111111111111111111111111"] }
+    k1: { string: ["22222222222222222222222222222222"] }
+    k2: { string: ["33333333333333333333333333333333"] }
+    k3: { string: ["44444444444444444444444444444444"] }
+    k4: { string: ["55555555555555555555555555555555"] }
